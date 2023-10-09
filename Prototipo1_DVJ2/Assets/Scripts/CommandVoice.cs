@@ -10,15 +10,15 @@ public class CommandVoice : MonoBehaviour{
     KeywordRecognizer keywordRecognizer; // creo mi reconocedor de comandode voz
     Dictionary<string, Action> actions = new Dictionary<string, Action>(); // creo las comando
     private Vector3 direccion;
-    private float velocidad;
+    [SerializeField]private float velocidad=7;
 
     void Start(){
         //creo las acciones segun el comandod e voz
-        actions.Add("up",MoverArriba);
-        actions.Add("down",MoverAbajo);
-        actions.Add("left",MoverIzquierda);
-        actions.Add("right",MoverDerecha);
-        actions.Add("stop",Parar);
+        actions.Add("u",MoverArriba);
+        actions.Add("d",MoverAbajo);
+        actions.Add("l",MoverIzquierda);
+        actions.Add("r",MoverDerecha);
+        actions.Add("one",Parar);
         actions.Add("arriba",MoverArriba);
         actions.Add("abajo",MoverAbajo);
         actions.Add("izquierda",MoverIzquierda);
@@ -28,11 +28,10 @@ public class CommandVoice : MonoBehaviour{
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
         keywordRecognizer.Start();
-        velocidad=1;
     }
 
     void Update(){
-        transform.Translate(direccion);
+        transform.Translate(direccion, Space.World);
     }
 
     private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs command){
