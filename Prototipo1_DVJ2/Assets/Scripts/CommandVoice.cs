@@ -10,7 +10,7 @@ public class CommandVoice : MonoBehaviour{
     KeywordRecognizer keywordRecognizer; // creo mi reconocedor de comandode voz
     Dictionary<string, Action> actions = new Dictionary<string, Action>(); // creo las comando
     private Vector3 direccion;
-    [SerializeField]private float velocidad=2;
+    [SerializeField]private float velocidad=7;
 
     void Start(){
         //creo las acciones segun el comandod e voz
