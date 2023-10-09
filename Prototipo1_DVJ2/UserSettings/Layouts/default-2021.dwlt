@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 467
+  controlID: 23
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 473
+  controlID: 24
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 359
+  controlID: 106
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -432,7 +432,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ef6ffff
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -681,9 +681,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.6622868, y: 36.56466, z: 66.0066}
+    m_Target: {x: -15.567125, y: 36.563942, z: 115.02956}
     speed: 2
-    m_Value: {x: 5.6622868, y: 36.56466, z: 66.0066}
+    m_Value: {x: -15.567125, y: 36.563942, z: 115.02956}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -734,9 +734,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
-    m_Target: 117.97668
+    m_Target: 71.15594
     speed: 2
-    m_Value: 117.97668
+    m_Value: 71.15594
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -866,22 +866,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Equipo\Unity\Prototipo1_DVJ2\Prototipo1_DVJ2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 706e0000
-    m_LastClickedID: 28272
-    m_ExpandedIDs: 000000005e6e000000ca9a3b
+    m_SelectedIDs: d0690000
+    m_LastClickedID: 27088
+    m_ExpandedIDs: 00000000a069000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -909,7 +909,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e6e000000ca9a3b
+    m_ExpandedIDs: 00000000a0690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
