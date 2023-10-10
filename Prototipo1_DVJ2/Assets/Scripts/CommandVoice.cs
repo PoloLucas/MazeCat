@@ -18,7 +18,7 @@ public class CommandVoice : MonoBehaviour{
         actions.Add("d",MoverAbajo);
         actions.Add("l",MoverIzquierda);
         actions.Add("r",MoverDerecha);
-        actions.Add("one",Parar);
+        actions.Add("s",Parar);
         actions.Add("arriba",MoverArriba);
         actions.Add("abajo",MoverAbajo);
         actions.Add("izquierda",MoverIzquierda);
