@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LaserBehaviour : MonoBehaviour{
-    public PlayerBehaviour player;
+    public Player player;
 
     void Start(){
-        player=GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehaviour>();
+        player=GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         Destroy(gameObject,2);
     }
 
     void OnTriggerEnter(Collider other){
-        player.isLive=false;
+        //player.isLive=false;
     }
 }
