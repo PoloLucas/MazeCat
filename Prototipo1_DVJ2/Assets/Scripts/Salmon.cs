@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Salmon : MonoBehaviour {
+    public AudioSource sonido;
+    public AudioClip collectSound;
     private float rotationSpeed=10;
     public Player player;
 
@@ -15,6 +17,8 @@ public class Salmon : MonoBehaviour {
 
     void OnTriggerEnter(Collider other){
         player.salmon++;
-        gameObject.SetActive(false);
+        gameObject.GetComponent<SphereCollider>().enabled=false;
+        gameObject.GetComponent<MeshRenderer>().enabled=false;
+        sonido.PlayOneShot(collectSound);
     }
 }
