@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -39650,22 +39650,6 @@ Transform:
   m_Father: {fileID: 866862435}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &397223108341711929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397223108341711935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 397223108341711936}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 0}
-  npcType: 2
 --- !u!136 &397223108341711930
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -39734,7 +39718,7 @@ GameObject:
   - component: {fileID: 397223108341711924}
   - component: {fileID: 397223108341711931}
   - component: {fileID: 397223108341711930}
-  - component: {fileID: 397223108341711929}
+  - component: {fileID: 397223108341711937}
   - component: {fileID: 397223108341711936}
   m_Layer: 0
   m_Name: NPC (3)
@@ -39839,6 +39823,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &397223108341711937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397223108341711935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 397223108341711936}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  door: {fileID: 0}
+  npcType: 2
 --- !u!1 &3444579469936776130
 GameObject:
   m_ObjectHideFlags: 0
@@ -40185,7 +40185,7 @@ GameObject:
   - component: {fileID: 3675952733823076707}
   - component: {fileID: 3675952733823076716}
   - component: {fileID: 3675952733823076717}
-  - component: {fileID: 3675952733823076718}
+  - component: {fileID: 3675952733823076721}
   - component: {fileID: 3675952733823076720}
   m_Layer: 0
   m_Name: NPC
@@ -40250,22 +40250,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3675952733823076718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3675952733823076712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 3675952733823076720}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 1751063088}
-  npcType: 1
 --- !u!4 &3675952733823076719
 Transform:
   m_ObjectHideFlags: 0
@@ -40377,6 +40361,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3675952733823076721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675952733823076712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 3675952733823076720}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  door: {fileID: 1751063088}
+  npcType: 1
 --- !u!23 &3719765538336512672
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40433,22 +40433,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &3719765538336512674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3719765538336512676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 3719765538336512688}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 8790652001963617908}
-  npcType: 1
 --- !u!4 &3719765538336512675
 Transform:
   m_ObjectHideFlags: 0
@@ -40476,7 +40460,7 @@ GameObject:
   - component: {fileID: 3719765538336512687}
   - component: {fileID: 3719765538336512672}
   - component: {fileID: 3719765538336512673}
-  - component: {fileID: 3719765538336512674}
+  - component: {fileID: 3719765538336512689}
   - component: {fileID: 3719765538336512688}
   m_Layer: 0
   m_Name: NPC (2)
@@ -40589,6 +40573,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3719765538336512689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719765538336512676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 3719765538336512688}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  door: {fileID: 8790652001963617908}
+  npcType: 1
 --- !u!1001 &3866294830191840048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41072,7 +41072,7 @@ GameObject:
   - component: {fileID: 7834209018567184777}
   - component: {fileID: 7834209018567184774}
   - component: {fileID: 7834209018567184775}
-  - component: {fileID: 7834209018567184772}
+  - component: {fileID: 7834209018567184779}
   - component: {fileID: 7834209018567184778}
   m_Layer: 0
   m_Name: NPC (1)
@@ -41081,22 +41081,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7834209018567184772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7834209018567184770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 7834209018567184778}
-  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
-  door: {fileID: 8790652002503481135}
-  npcType: 1
 --- !u!4 &7834209018567184773
 Transform:
   m_ObjectHideFlags: 0
@@ -41272,6 +41256,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7834209018567184779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7834209018567184770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce01a0623a20a438f8c5f5e6231dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 7834209018567184778}
+  npcSound: {fileID: 8300000, guid: 9b53c1157920db3418bd337880302795, type: 3}
+  door: {fileID: 8790652002503481135}
+  npcType: 1
 --- !u!65 &8790652001193988079
 BoxCollider:
   m_ObjectHideFlags: 0

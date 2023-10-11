@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class NPC : MonoBehaviour{
     public AudioSource sonido;
     public AudioClip npcSound;
@@ -27,6 +27,7 @@ public class NPC : MonoBehaviour{
                 }
                 case 2:{
                     sonido.PlayOneShot(npcSound);
+                    SceneManager.LoadScene(2);
                     //pantalla final
                     break;
                 }
