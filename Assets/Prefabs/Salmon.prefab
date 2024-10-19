@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7673092409142834298}
   - component: {fileID: 5591425291326357680}
   - component: {fileID: 6935033976882048114}
-  - component: {fileID: 3219149601260707287}
+  - component: {fileID: 6484884741980221619}
+  - component: {fileID: 7863295549256834032}
   - component: {fileID: 4170189828820668484}
   m_Layer: 0
   m_Name: Salmon
@@ -99,7 +100,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: -0.01282236, y: 0.082600676, z: 0.0031455315}
---- !u!114 &3219149601260707287
+--- !u!114 &6484884741980221619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6239816301239017829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc5731a60ddece4e9946abcfd0c0ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7863295549256834032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +137,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b907b3217dbbb974f83cb538c2b579c9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
